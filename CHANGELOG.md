@@ -14,6 +14,7 @@
 - [#8525](https://github.com/influxdata/influxdb/issues/8525): Support http pipelining for /query endpoint.
 - [#8652](https://github.com/influxdata/influxdb/pull/8652): Reduce allocations when reading data
 - [#8592](https://github.com/influxdata/influxdb/pull/8592): Mutex profiles are now available.
+- [#8572](https://github.com/influxdata/influxdb/pull/8572): All errors from queries or writes are available via X-InfluxDB-Error header, and 5xx error messages will be written to server logs.
 
 ### Bugfixes
 
